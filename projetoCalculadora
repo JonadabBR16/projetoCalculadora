@@ -76,7 +76,7 @@ b_7.place(x=177, y=52)
 
 #Linha3
 b_4=Button(frame_corpo, command= lambda: entrar_valores('4'), text="4", width=5, height=2, bg= cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
-b_4.place(x=118, y=104)
+b_4.place(x=0, y=104)
 b_5=Button(frame_corpo, command= lambda: entrar_valores('5'), text="5", width=5, height=2, bg= cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b_5.place(x=59, y=104)
 b_6=Button(frame_corpo, command= lambda: entrar_valores('6'), text="6", width=5, height=2, bg= cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
@@ -86,7 +86,7 @@ b_7.place(x=177, y=104)
 
 #Linha4
 b_4=Button(frame_corpo, command= lambda: entrar_valores('1'), text="1", width=5, height=2, bg= cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
-b_4.place(x=118, y=156)
+b_4.place(x=0, y=156)
 b_5=Button(frame_corpo, command= lambda: entrar_valores('2'), text="2", width=5, height=2, bg= cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b_5.place(x=59, y=156)
 b_6=Button(frame_corpo, command= lambda: entrar_valores('3'), text="3", width=5, height=2, bg= cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
@@ -95,11 +95,11 @@ b_7=Button(frame_corpo, command= lambda: entrar_valores('+'), text="+", width=5,
 b_7.place(x=177, y=156)
 
 #Linha5
-b_16=Button(frame_corpo,  command= lambda: entrar_valores('0'), text="0", width=11, height=2, bg= cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_16=Button(frame_corpo, command= lambda: entrar_valores('0'), text="0", width=11, height=2, bg= cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b_16.place(x=0, y=208)
-b_17=Button(frame_corpo,  command= lambda: entrar_valores('.'), text=".", width=5, height=2, bg= cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_17=Button(frame_corpo, command= lambda: entrar_valores('.'), text=".", width=5, height=2, bg= cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b_17.place(x=118, y=208)
-b_18=Button(frame_corpo, text="=", width=5, height=2, bg= cor5, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_18=Button(frame_corpo, command= lambda: entrar_valores('='), text="=", width=5, height=2, bg= cor5, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b_18.place(x=177, y=208)
 
 janela.mainloop()
